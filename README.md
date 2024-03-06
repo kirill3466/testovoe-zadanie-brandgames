@@ -6,21 +6,21 @@
 python -m venv venv
 venv\scripts\activate
 ```
-###Зависимости:
+Зависимости:
 ```
 pip install django aiogram
 или
 pip install -r requirements.txt
 ```
-###Джанго проект:
+Джанго проект:
 ```
 python manage.py makemigrations
 python manage.py migrate
 python manage.py createsuperuser
 ```
-###Запустить бота
+Запустить бота
 ```
 python manage.py bot.py
 ```
-###Перейти в чат к боту и нажать кнопку грузить собаку
+Перейти в чат к боту и нажать кнопку грузить собаку
 https://t.me/dog_aiogram_bot
